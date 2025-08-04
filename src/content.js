@@ -10,13 +10,15 @@ function convert(str, direction) {
   const map = direction === "fa" ? faToEnMap : enToFaMap;
   return str.split('').map(ch => map[ch] ?? ch).join('');
 }
+
 function detectLang(word) {
-  const faRegex = /^[\u0600-\u06FF]+$/;
-  const enRegex = /^[a-zA-Z]+$/;
+  const faRegex = /^[\u0600-\u06FF\s]+$/;
+  const enRegex = /^[a-zA-Z\s]+$/;
   if(faRegex.test(word)) return 'fa';
   if(enRegex.test(word)) return 'en';
   return 'other';
 }
+
 
 function isWritableInput(el) {
   if (!el) return false;
@@ -32,15 +34,17 @@ function isWritableInput(el) {
 }
 
 function isShortcut(e, shortcut) {
-  if (!shortcut) return false;
+  const isMac = /mac/i.test(window.navigator.userAgent);
+  const effectiveCtrl = isMac && e.metaKey ? false : e.ctrlKey;
   return (
-    !!e.ctrlKey === !!shortcut.ctrl &&
+    !!effectiveCtrl === !!shortcut.ctrl &&
     !!e.altKey === !!shortcut.alt && 
     !!e.shiftKey === !!shortcut.shift &&
     !!e.metaKey === !!shortcut.meta &&
     e.code === shortcut.code
   );
 }
+
 
 let shortcut = {
   ctrl: true, alt: true, shift: false, meta: false, code: 'KeyM', keyView: 'M'
