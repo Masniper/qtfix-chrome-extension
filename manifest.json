@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Fa-En Keyboard Layout Converter",
+  "version": "1.0.0",
+  "description": "Quickly convert text between Farsi and English layouts in any input using your custom shortcut.",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "src/background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["src/content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "options_ui": {
+    "page": "src/options.html",
+    "open_in_tab": true
+  },
+  "icons": {
+    "32": "icons/icon32.png",
+    "128": "icons/icon128.png"
+  }
+}
