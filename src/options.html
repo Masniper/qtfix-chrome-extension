@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Keyboard Layout Converter - Options</title>
+  <style>
+    body { font-family: sans-serif; margin: 32px; }
+    label, input { font-size: 1.1em; }
+    .shortcut-box { margin-top: 16px; }
+  </style>
+</head>
+<body>
+  <h2>تنظیم شورتکات اختصاصی شما �</h2>
+  <p>مثال: Ctrl + Alt + M یا فقط Alt + Shift + K</p>
+  <form id="shortcutForm">
+    <div class="shortcut-box">
+      <label>شورتکات: 
+        <input type="text" id="shortcutInput" readonly style="width: 220px;" />
+      </label>
+      <button type="button" id="editBtn">ویرایش</button>
+      <button type="submit" style="display: none;" id="saveBtn">ذخیره</button>
+      <button type="button" style="display: none;" id="cancelBtn">انصراف</button>
+    </div>
+  </form>
+  <div id="message" style="margin-top:16px; color: green"></div>
+  <script src="options.js" type="module"></script>
+</body>
+</html>
