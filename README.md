@@ -50,7 +50,7 @@ Don’t worry! Just keep the cursor in your input, hit your shortcut, and **QTFi
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/masniper/QTFix.git
+git clone https://github.com/masniper/qtfix-chrome-extension.git
 cd QTFix
 ```
 
@@ -161,7 +161,7 @@ MIT — free to use, just keep the author's name.
 
 1. ریپازیتوری رو کلون کن:
     ```bash
-    git clone https://github.com/masniper/QTFix.git
+    git clone https://github.com/masniper/qtfix-chrome-extension.git
     cd QTFix
     ```
 2. وابستگی‌ها رو نصب کن:
