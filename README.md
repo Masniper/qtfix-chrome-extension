@@ -37,7 +37,7 @@ Don’t worry! Just keep the cursor in your input, hit your shortcut, and **QTFi
 
 ## 🧩 Manual Installation
 
-1. Download [qtfix-chrome-extension.zip](./release/qtfix-chrome-extension.zip) from this repository.
+1. Download [qtfix-chrome-extension.zip](https://github.com/Masniper/qtfix-chrome-extension/releases) from this repository.
 2. Unzip it anywhere on your computer.
 3. Go to `chrome://extensions/` in your browser.
 4. Turn on “Developer mode”.
@@ -150,7 +150,7 @@ MIT — free to use, just keep the author's name.
 ---
 ## نصب دستی 
 
-۱. فایل [qtfix-chrome-extension.zip](./release/qtfix-chrome-extension.zip) رو از این مخزن بگیر و استخراج کن.
+۱. فایل [qtfix-chrome-extension.zip](https://github.com/Masniper/qtfix-chrome-extension/releases) رو از این مخزن بگیر و استخراج کن.
 ۲. وارد کروم شو آدرس  `chrome://extensions/` رو بزن.
 ۳. حالت توسعه‌دهنده (Developer mode) رو فعال کن.
 ۴. روی “بارگذاری افزونه unpacked” کلیک کن و پوشه استخراج‌شده رو انتخاب کن.
