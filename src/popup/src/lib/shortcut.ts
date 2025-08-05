@@ -8,7 +8,7 @@ export type Shortcut = {
 };
 
 export const defaultShortcut: Shortcut = {
-  ctrl: true,
+  ctrl: false,
   alt: false,
   shift: true,
   meta: false,

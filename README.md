@@ -16,7 +16,7 @@ Don’t worry! Just keep the cursor in your input, hit your shortcut, and **QTFi
 ## How to Use
 
 1. Click in the input where you typed the messed-up text.
-2. Press your chosen shortcut (default is usually `Ctrl + Shift + Space`, but you can set your own).
+2. Press your chosen shortcut (default is usually `Shift + Space`, but you can set your own).
 3. Instantly, your text is fixed! You *don’t* need to select or delete anything.
 
 ---
@@ -112,7 +112,7 @@ MIT — free to use, just keep the author's name.
 ### روش استفاده
 
 ۱. نشانگر موس رو روی کادری بذار که متن اشتباهی نوشتی  
-۲. کلید میانبر (مثلاً `Ctrl + Shift + Space`) رو بزن — می‌تونی خودت هم براش میانبر دلخواه بذاری  
+۲. کلید میانبر (مثلاً `Shift + Space`) رو بزن — می‌تونی خودت هم براش میانبر دلخواه بذاری  
 ۳. متن همون لحظه به فارسی یا انگلیسی درست میشه. نیاز به انتخاب یا پاک کردن نیست!
 
 ---
